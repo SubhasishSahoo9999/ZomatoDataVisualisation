@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Reading the dataframe
-df = pd.read_csv('zomato_data_updated.csv')
+df1 = pd.read_csv('zomato_data_updated.csv')
+df = df1[df1['Country'] == 'India']
 
 # Streamlit app
 def main():
