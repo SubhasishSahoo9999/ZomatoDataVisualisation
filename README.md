@@ -29,6 +29,7 @@ A Dash app is created with a dropdown for country selection. Graphs display cuis
 
 ### Dashboard Callbacks
 Callbacks are implemented to update graphs and display dynamic information based on user input.
+The Dashboard can be viewed here in the Streamlit app https://zomato-data-visualization-01.streamlit.app/
 
 ## City-Based Analysis Dashboard
 ### Dashboard Layout
@@ -36,6 +37,7 @@ A Dash app is created with dropdowns for country and city selection. Graphs disp
 
 ### Dashboard Callbacks
 Callbacks are implemented to update city dropdown options and update graphs based on user input.
+The Dashboard can be viewed here in the Streamlit app https://zomato-data-visualization-02.streamlit.app/
 
 ## City Comparison within India
 ### Analysis
@@ -43,3 +45,4 @@ Data is filtered for India, and various reports are generated, including the num
 
 ### Dashboard
 The figures are displayed to compare cities within India.
+The Dashboard can be viewed here in the Streamlit app https://zomato-data-visualization-03.streamlit.app/
