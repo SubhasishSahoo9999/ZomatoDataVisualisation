@@ -24,7 +24,7 @@ def main():
         x='Cuisines',
         y='count',
         title='Famous Cuisine in the City',
-        labels={'index': 'Cuisine', 'Cuisines': 'Number of Occurrences'}
+        labels={'index': 'Cuisine', 'Cuisines': 'Cuisines'}
     ))
 
     # Costlier Cuisine in the City
