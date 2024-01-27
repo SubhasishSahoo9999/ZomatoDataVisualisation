@@ -16,7 +16,7 @@ def main():
     filtered_df = df[df['Country'] == selected_country]
 
     # Cuisine Analysis
-    st.plotly_chart(px.bar(filtered_df, x='Cuisines', y='count', title='Cuisine Analysis'))
+    st.plotly_chart(px.bar(filtered_df, x='Cuisines', title='Cuisine Analysis'))
 
     # Ratings Analysis - Restaurant-wise
     st.plotly_chart(px.bar(filtered_df, x='Restaurant Name', y='Aggregate rating', title='Ratings Analysis'))
