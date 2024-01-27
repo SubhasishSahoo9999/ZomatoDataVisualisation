@@ -7,7 +7,7 @@ df = pd.read_csv('zomato_data_updated.csv')
 
 # Streamlit app
 def main():
-    st.title("City based Analysis")
+    st.title("City based data analysis")
 
     # Dropdown for country selection
     selected_country = st.selectbox("Select Country", df['Country'].unique(), index=0)
