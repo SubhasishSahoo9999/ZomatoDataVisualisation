@@ -8,7 +8,7 @@ df = df1[df1['Country'] == 'India']
 
 # Streamlit app
 def main():
-    st.title("City Comparison in India")
+    st.title("City comparison in India")
 
     # Report 1: Comparison Between Cities in India
     st.plotly_chart(px.bar(df.groupby('City').size().reset_index(), x='City', y=0, title='Number of Restaurants per City'))
